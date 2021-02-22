@@ -53,3 +53,4 @@ exclude:
 
 watch_exclude:
   - \\.#[^/\\\\]+$
+theme: jekyll-theme-cayman
