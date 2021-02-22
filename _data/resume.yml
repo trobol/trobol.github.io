@@ -1,0 +1,53 @@
+name: Thornton
+title: Game Developer
+description: description
+mail: thorfernbacher@gmail.com
+linkedin: linkedin.com/in/tfernbacher
+website: thornton.one
+
+experience:
+
+- name: LEAHY CENTER FOR DIGITAL INVESTIGATION
+  location: Burlington, VT
+  duration: Sept 2019 to current
+  title: Web Developer
+  description: Leahy Center for Digital Investigation (LCDI) is focused on establishing and assisting with public and private sector initiatives surrounding cybercrime, digital forensics and information assurance.
+  items:
+   - Project lead building and programming in-house tools to improve student workforce time management.
+   - Manage two student interns in execution of tools.
+
+
+- name: BERKSHIRE WALDORF SCHOOL
+  location: Gt. Barrington, MA
+  duration: June to August 2019
+  title: Web Developer / Consultant
+  description: Berkshire Waldorf School is an alternative independent elementary and middle school that strives to develop pupils intellectual, artistic and practical skills in an integrated and holistic manner.
+  items:
+   - Partnered with school marketing team to develop new upgraded website concurrent with new branding.
+   - Revamped and redesigned site working in partnership with another student production designer.
+   - Managed programming and design to complete new functional and aesthetically cleaner site in 10 weeks.
+
+
+- name: QUICKKEY
+  location: Boston, MA
+  duration: July to August 2018
+  title: Intern
+  description: Tech startup QuickKey is a mobile technology app for rapid formative assessment of student test results.
+  items:
+    - Web app development of document importation interface for quizzes.
+    - Document conversion / manipulation to create database of sample data for automated importation.
+
+
+- name: OSTENIO, INC.
+  location: Burlington, VT
+  duration: Sept 2017 to current
+  title: Principal
+  description: Ostenio is a startup concept developing a social media access aggregator, mobile technology app.
+  items:
+   - Developing thru Champlain College’s BYOBIZ program; awarded four-year scholarship for business plan.
+   - Managing all aspects of concept, programming, design and development and strategy.
+
+
+education:
+ - Champlain College Burlington, VT BS Game Programming / Class of 2022
+ - Berkshire Waldorf High School, Gt. Barrington, MA College Preparatory / Class of 2018

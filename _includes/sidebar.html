@@ -1,0 +1,25 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+		{% assign title_words = site.title | split: " " %}
+		{% for word in title_words %}
+        <span>{{ word }}</span>
+		{% endfor %}
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+
+	<input id="nav-dropdown" type="checkbox">
+	{% assign sorted_pages = site.pages | sort:"order" %}
+    <nav class="sidebar-nav">     
+      {% for s_page in sorted_pages %}
+      {% if s_page.title != null and s_page.layout == "page" %}
+	  <a class="sidebar-nav-item{% if page.url == s_page.url %} active {% endif %}" href="{{ s_page.url }}"><span>{{ s_page.title }}</span></a>
+	  {% endif %}
+	  {% endfor %}
+    </nav>
+	<label for="nav-dropdown"></label>
+  </div>	
+</div>

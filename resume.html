@@ -1,0 +1,38 @@
+---
+layout: page
+title: resume
+order: 2
+hide_title: true
+content_classes: resume
+---
+
+
+
+{% assign data = site.data.resume %}
+
+<h1 class="name"> {{ data.name }} </h1>
+
+<h3 class="title"> {{ data.title }} </h3>
+
+<p> {{ data.description }} </p>
+
+
+{% for item in data.experience %}
+<div class="experience">
+  <p class="header">
+    <span class="name">{{ item.name }}</span>
+    <span class="location">{{ item.location }}</span>
+  </p>
+  <p class="sub-header">
+    <span class="title">{{ item.title }}</span>
+    <span class="date">{{ item.duration }}</span>
+  </p>
+  <p> {{ item.description }} </p>
+  <ul>
+    {% for txt in item.items %}
+    <li>{{ txt }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
