@@ -123,11 +123,12 @@ body {
 
 	h1 span {
 		display: inline-block;
-		font-size: 2.0rem;
-		color: $cadet;
+		font-size: 1.5rem;
+		color:$light-blue ;
 	}
 	h1 span::first-letter {
 		font-weight: 500;
+		font-size: 3.0rem;
 		color: $white;
 	}
 }
