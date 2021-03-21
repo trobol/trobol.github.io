@@ -152,24 +152,39 @@ body {
 		content: " ]";
 	}
 	&:hover {
-		span::before, span::after {
+		span::before, span::after, &::before {
 			visibility: visible;
+		}
+		&::before {
+			animation: 1s blink step-end infinite;
 		}
 	}
 	&::before {
+		visibility: hidden;
 		content: ">";
 		width: 1em;
 		display: inline-block;
 	}
+	
 
 	&.active {
 		color: $brink-pink;
 		&::before {
 			content: "×";
+			visibility: visible;
 		}	
 	}
 }
 
+
+@keyframes blink {
+  from, to {
+      color: transparent;
+  }
+  50% {
+      color: inherit;
+  }
+}
 
 /* Container
  *
