@@ -1,0 +1,15 @@
+baseURL: 'https://trobol.net/'
+languageCode: 'en-us'
+title: 'thornton'
+
+menu:
+  main:
+   - name: 'home'
+     url: '/'
+     weight: 1
+   - name: 'about'
+     url: '/about'
+     weight: 2
+   - name: 'projects'
+     url: '/projects'
+     weight: 3
