@@ -4,12 +4,10 @@ help: ## help
 
 
 
-
-
 serve: ## start debug server
-	hugo server 
+	hugo server --disableFastRender --environment=dev --noHTTPCache
 
-.PHONY: serve
+.PHONY: serve post
 
 HUGO_VERSION := $(shell hugo version 2>/dev/null)
 

@@ -1,0 +1,8 @@
+{{- $src := .Get "src" -}}
+{{- $target := path.Base $src -}}
+{{- $size := .Get "size" -}}
+
+<a class="lightbox" href="#{{$target}}" ><img src="{{$src}}" class="{{$size}}"></a>
+<a href="#" class="lightbox-target" id="{{$target}}" class="lightbox-target">
+    <img src="{{$src}}"/>
+</a>
