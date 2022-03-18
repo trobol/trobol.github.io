@@ -13,3 +13,10 @@ menu:
    - name: 'projects'
      url: '/projects'
      weight: 3
+   - name: 'posts'
+     url: '/posts/'
+     weight: 4
+
+markup:
+  highlight:
+    noClasses: false
