@@ -32,23 +32,28 @@ This is not feasible. If we were to target a 1080p monitor and render our charac
 
 If we were to target a 4k monitor and render our characters that tall we would need 14 MB to store each character and 1.8 GB to store a whole font
 
+Crisp 4k A
+
 {{< image src="./img/letter_4k.png" size="small" >}}
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 
 ### The solution
 
-very basic description of sdf
+//very basic description of sdf
 
-description of how pixels are interpolated and how that works with sdf
+//description of how pixels are interpolated and how that works with sdf
 
-description of how sdf are actually rendered
+//description of how sdf are actually rendered
 
-circle visualization diagram
+//circle visualization diagram
 
-bonus features of sdfs
+//bonus features of sdfs
 
 ## 2. How
 
-how I actually went about generating the sdfs
+//how I actually went about generating the sdfs
 
 
