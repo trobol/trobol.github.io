@@ -36,6 +36,9 @@ Crisp 4k A
 
 {{< image src="./img/letter_4k.png" size="small" >}}
 
+
+{{< image src="./img/dist_vs_pixel.png" size="medium" >}}
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
